@@ -12,7 +12,7 @@ public class User{
     public class Sex{
         private String sex;
         public Sex(String s){
-
+            sex = s;
         }
 
     }

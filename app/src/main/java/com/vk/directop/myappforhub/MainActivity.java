@@ -11,9 +11,14 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        User user1 = new User();
     }
     public int sunFrom1ToN(int n){
-        return 0;
+        int sum = 0;
+        for(int i = 0; i < n; i++){
+            sum = sum + i;
+        }
+        return sum;
     }
 
 }
