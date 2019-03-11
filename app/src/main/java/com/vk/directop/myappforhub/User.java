@@ -5,7 +5,8 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 import java.util.Objects;
-
+//https://javarush.ru/groups/posts/605-junit
+//https://javarush.ru/groups/posts/1152-junit-dlja-javarush-ili-nemnogo-o-testirovanii-v-domashnikh-uslovijakh
 public class User{
     private int id;
     private String name;
